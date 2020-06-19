@@ -4,17 +4,72 @@ body {
   margin: 0;
   padding: 0;
 }
+a {
+  color: #32e0c4;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
 
 /****************** HEADER ******************/
-.header-bg {
+
+.home-header-bg {
   background-color: #222831;
   height: 400px;
 }
-.header {
+.home-header {
   color: #eee;
   margin: 0 auto;
   padding-top: 50px;
   width: 800px;
+}
+.home-header hr {
+  background-color: #32e0c4;
+  border-style: none;
+  height: 2px;
+  width: 60%;
+}
+.home-head-p1 {
+  margin: 20px auto 30px auto;
+  padding: 0;
+  font-size: 1.5em;
+  text-align: center;
+}
+.home-head-p2 {
+  margin: 35px auto 10px auto;
+  padding: 0;
+  font-size: 1.5em;
+  text-align: center;
+}
+.home-head-p3 {
+  font-size: 0.7em;
+  font-style: italic;
+  margin: 0 auto 20px auto;
+  padding: 0;
+  text-align: center;
+}
+.header-bg {
+  background-color: #222831;
+  height: 170px;
+}
+.header {
+  color: #eee;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 800px;
+}
+.header hr {
+  background-color: #32e0c4;
+  border-style: none;
+  height: 2px;
+  width: 40%;
+}
+.head-p1 {
+  margin: 20px auto 0 auto;
+  padding: 0;
+  font-size: 1.5em;
+  text-align: center;
 }
 h1 {
   text-align: center;
@@ -22,31 +77,8 @@ h1 {
   padding: 0;
   font-size: 2.5em;
 }
-.head-p1 {
-  margin: 20px auto 30px auto;
-  padding: 0;
-  font-size: 1.5em;
-  text-align: center;
-}
-.head-p2 {
-  margin: 35px auto 10px auto;
-  padding: 0;
-  font-size: 1.5em;
-  text-align: center;
-}
-.head-p3 {
-  font-size: 0.7em;
-  font-style: italic;
-  margin: 0 auto 20px auto;
-  padding: 0;
-  text-align: center;
-}
-hr {
-  background-color: #32e0c4;
-  border-style: none;
-  height: 2px;
-  width: 60%;
-}
+
+
 .no-style {
   font-style: normal;
 }
@@ -84,24 +116,33 @@ hr {
   margin: 30px 15px 0 15px;
   width: 350px;
 }
+.content-spacer {
+  height: 700px;
+}
 
 /****************** FOOTER ******************/
 .footer {
   background-color: #222831;
   color: #eee;
-  padding-top: 20px;
+  padding: 20px 0 50px 0;
   text-align: center;
 }
 .foot-p1 {
   margin: 0 0 20px 0;
   padding: 0;
 }
+.foot-p2 {
+  margin: 20px 0 0 0;
+}
 .foot-img {
   width: 50px;
-  margin: 0 5px 40px 5px;
+  margin: 0 5px 0px 5px;
 }
 .detail-color {
   color: #32e0c4;
+}
+.ref {
+  font-size: 70%;
 }
 .detail-color a {
   font-style: normal;
