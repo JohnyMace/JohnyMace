@@ -1,2 +1,2 @@
-# MikeTheKnight
-Mike's personal site
+# Johny Mace
+The potential is infinite
