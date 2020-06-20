@@ -11,12 +11,19 @@ a {
 a:hover {
   text-decoration: underline;
 }
+h3 {
+  margin: 10px 0 10px 0;
+}
+p {
+  margin: 0;
+  padding: 0 10px 0 10px;
+}
 
 /****************** HEADER ******************/
 
 .home-header-bg {
   background-color: #222831;
-  height: 400px;
+  height: 350px;
 }
 .home-header {
   color: #eee;
@@ -31,7 +38,7 @@ a:hover {
   width: 60%;
 }
 .home-head-p1 {
-  margin: 20px auto 30px auto;
+  margin: 0 auto 30px auto;
   padding: 0;
   font-size: 1.5em;
   text-align: center;
@@ -63,19 +70,19 @@ a:hover {
   background-color: #32e0c4;
   border-style: none;
   height: 2px;
-  width: 40%;
+  width: 35%;
 }
 .head-p1 {
   margin: 20px auto 0 auto;
   padding: 0;
-  font-size: 1.5em;
+  font-size: 150%;
   text-align: center;
 }
 h1 {
   text-align: center;
   margin: 0;
   padding: 0;
-  font-size: 2.5em;
+  font-size: 250%;
 }
 
 
@@ -91,7 +98,7 @@ h1 {
 }
 .nav-ul li{
   display: inline-block;
-  font-size: 0.8em;
+  font-size: 80%;
   margin: 12px 10px 0 10px;
 }
 .nav-ul {
@@ -109,12 +116,29 @@ h1 {
   width: 80%;
 }
 .job-box {
-  border: solid 2px #32e0c4;
-  border-radius: 15px;
+  border: solid 1px #32e0c4;
   display: inline-block;
-  height: 350px;
   margin: 30px 15px 0 15px;
   width: 350px;
+}
+.job-box-1 {
+  border: solid 1px #32e0c4;
+  display: inline-block;
+  margin: 30px 15px 0 15px;
+  width: 350px;
+}
+.job-box-1 img {
+  margin: 10px 0 10px 0;
+  height: 260px;
+  width: 300px;
+}
+.job-box img {
+  margin: 10px 0 10px 0;
+  height: 260px;
+  width: 300px;
+}
+.content button {
+  margin-bottom: 10px;
 }
 .content-spacer {
   height: 700px;
@@ -136,7 +160,7 @@ h1 {
 }
 .foot-img {
   width: 50px;
-  margin: 0 5px 0px 5px;
+  margin: 0 5px 0 5px;
 }
 .detail-color {
   color: #32e0c4;
@@ -145,7 +169,7 @@ h1 {
   font-size: 70%;
 }
 .detail-color a {
-  font-style: normal;
+  text-decoration: underline;
   color: inherit;
 }
 
