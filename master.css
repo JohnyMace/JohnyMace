@@ -1,5 +1,5 @@
 body {
-  background-color: #eee;
+  background-color: #222831;
   font-family: arial;
   margin: 0;
   padding: 0;
@@ -108,6 +108,9 @@ h1 {
 }
 
 /****************** MAIN CONTENT ******************/
+.content-bg {
+  background-color: #eee;
+}
 .content {
   background-color: #eee;
   margin: auto;
