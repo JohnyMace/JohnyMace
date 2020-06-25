@@ -1,3 +1,4 @@
+
 body {
   background-color: #222831;
   font-family: arial;
@@ -113,21 +114,23 @@ h1 {
 }
 .content {
   background-color: #eee;
-  margin: auto;
-  padding-bottom: 30px;
-  text-align: center;
+  margin: 0 auto;
   width: 80%;
 }
 .job-box {
   border: solid 1px #32e0c4;
+  border-radius: 5px;
   display: inline-block;
-  margin: 30px 15px 0 15px;
+  margin: 30px 15px 30px 15px;
+  text-align: center;
   width: 350px;
 }
 .job-box-1 {
   border: solid 1px #32e0c4;
+  border-radius: 5px;
   display: inline-block;
   margin: 30px 15px 0 15px;
+  text-align: center;
   width: 350px;
 }
 .job-box-1 img {
